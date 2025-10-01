@@ -34,7 +34,7 @@
     "@eslint/js": "^9.35.0",
     "@hono/vite-dev-server": "^0.20.1",
     "@types/better-sqlite3": "^7.6.13",
-    "@types/node": "^20.19.9",
+    "@types/node": "^24.6.1",
     "@types/pg": "^8.15.5",
     "@unocss/preset-wind4": "^66.5.2",
     "cross-env": "^10.0.0",
