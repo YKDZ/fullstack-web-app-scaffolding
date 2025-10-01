@@ -67,8 +67,8 @@ importers:
         specifier: ^9.35.0
         version: 9.36.0
       '@hono/vite-dev-server':
-        specifier: ^0.20.1
-        version: 0.20.1(hono@4.9.9)
+        specifier: ^0.21.1
+        version: 0.21.1(hono@4.9.9)
       '@types/better-sqlite3':
         specifier: ^7.6.13
         version: 7.6.13
@@ -534,8 +534,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@hono/vite-dev-server@0.20.1':
-    resolution: {integrity: sha512-wXikV0C5tPqwH6udA68VTsmnFKWGhIeBuhuxgdGDQIbVNbv5gD0vqKLhx4nG1o4dhksaWPiiSqZV58sTKUzNxA==}
+  '@hono/vite-dev-server@0.21.1':
+    resolution: {integrity: sha512-HRqwsgbbTJ4a0Jiq7aB5aWb12upHtXGSU6nh+LuokTaB6VzFfiIkUBRUdAtRbGV7a3EWehoGhAbVZZjfKgR3uw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -2528,7 +2528,7 @@ snapshots:
     dependencies:
       hono: 4.9.9
 
-  '@hono/vite-dev-server@0.20.1(hono@4.9.9)':
+  '@hono/vite-dev-server@0.21.1(hono@4.9.9)':
     dependencies:
       '@hono/node-server': 1.19.5(hono@4.9.9)
       hono: 4.9.9
