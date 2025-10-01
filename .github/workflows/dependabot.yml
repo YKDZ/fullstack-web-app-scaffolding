@@ -1,0 +1,18 @@
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: widen
+    open-pull-requests-limit: 32
+    groups:
+      nx:
+        patterns:
+          - "nx"
+          - "@nx/*"
+      drizzle:
+        patterns:
+          - "pg"
+          - "drizzle*"
