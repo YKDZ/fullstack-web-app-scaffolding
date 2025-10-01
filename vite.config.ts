@@ -4,11 +4,12 @@ import { telefunc } from "telefunc/vite";
 import vike from "vike/plugin";
 import { defineConfig } from "vite";
 import UnoCSS from "unocss/vite";
+import { fileURLToPath } from "node:url";
 
 export default defineConfig({
   resolve: {
     alias: {
-      "@": "./src",
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
 
